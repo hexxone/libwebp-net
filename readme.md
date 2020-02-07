@@ -2,6 +2,8 @@
 
 Forked and modified from [imazen/libwebp-net](http://github.com/imazen/libwebp-net)
 
+...basically converted this into a .Net Standard Library without changing much
+
 The original library is available on Nuget as [Imazen.WebP](http://nuget.org/packages/Imazen.WebP).
 
 This library offers P/Invoke exposure for webp/decode.h and webp/encode.h, but not demux.h and mux.h.
@@ -23,6 +25,7 @@ This library offers P/Invoke exposure for webp/decode.h and webp/encode.h, but n
 ## Windows builds of libwebp 0.5.2 can be found here:
 
 https://s3.amazonaws.com/resizer-dynamic-downloads/webp/0.5.2/x86_64/libwebp.dll
+
 https://s3.amazonaws.com/resizer-dynamic-downloads/webp/0.5.2/x86/libwebp.dll
 
 You may need vcruntime14 (VS 2015 C++ Redistributable) https://www.microsoft.com/en-us/download/details.aspx?id=48145
