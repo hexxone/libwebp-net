@@ -1,9 +1,8 @@
-# libwebp wrapper for .NET
+# libwebp wrapper for .NET Standard 2.0
 
-Build status for branch 'master': ![build status](http://img.shields.io/appveyor/ci/imazen/libwebp-net.svg)
-Last nuget release: ![Nuget release version](http://img.shields.io/nuget/v/Imazen.WebP.svg)
+Forked and modified from [imazen/libwebp-net](http://github.com/imazen/libwebp-net)
 
-This library is available on Nuget as [Imazen.WebP](http://nuget.org/packages/Imazen.WebP).
+The original library is available on Nuget as [Imazen.WebP](http://nuget.org/packages/Imazen.WebP).
 
 This library offers P/Invoke exposure for webp/decode.h and webp/encode.h, but not demux.h and mux.h.
 
